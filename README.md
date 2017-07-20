@@ -1,2 +1,2 @@
 # BSGmaldenganglife
-BlindsideGaming's Malden Life server, with a gang orientation
+BlindsideGaming's Malden Gang Life Mission Files
