@@ -6583,6 +6583,9 @@
             <Portuguese>Carne de Cabra Grelhada</Portuguese>
             <Polish>Grilowana Koza</Polish>
         </Key>
+        <Key ID="STR_Item_CPRMediKit">
+             <Original>CPR MediKit</Original>
+         </Key>
         <Key ID="STR_Item_SheepRaw">
             <Original>Raw Sheep</Original>
             <Czech>Raw Ovce</Czech>
@@ -7954,6 +7957,9 @@
             <Italian>Rianimando %1</Italian>
             <Portuguese>Revivendo %1</Portuguese>
             <Polish>Reanimacja %1</Polish>
+        </Key>
+        <Key ID="STR_CPR_Progress">
+          <Original>Performing CPR</Original>
         </Key>
         <Key ID="STR_Medic_RevivedRespawned">
             <Original>This person either respawned or was already revived.</Original>

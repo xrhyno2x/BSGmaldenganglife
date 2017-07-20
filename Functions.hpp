@@ -271,6 +271,7 @@ class Life_Client_Core {
         class placestorage {};
         class spikeStrip {};
         class storageBox {};
+        class cprkit {};
     };
 
     class Medical_System {
@@ -288,6 +289,7 @@ class Life_Client_Core {
         class respawned {};
         class revived {};
         class revivePlayer {};
+        class cprrevived {};
     };
 
     class Network {
