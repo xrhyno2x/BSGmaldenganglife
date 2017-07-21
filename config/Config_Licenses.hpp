@@ -16,6 +16,14 @@ class Licenses {
         side = "civ";
     };
 
+    class towing {
+        variable = "Towing";
+        displayName = "STR_License_Towing";
+        price = 50000;
+        illegal = false;
+        side = "civ";
+    };
+
     class boat {
         variable = "boat";
         displayName = "STR_License_Boat";

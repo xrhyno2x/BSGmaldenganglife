@@ -38,5 +38,9 @@ if (life_is_alive && !life_is_arrested) then {
         };
     };
 };
+
+diag_log "Attempting to initialize Towing Script...";
+[] execVM "core\initTowing.sqf";
+
 life_is_alive = true;
 player addRating 9999999;

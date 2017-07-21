@@ -6984,6 +6984,9 @@
             <Portuguese>Licença de Motorista</Portuguese>
             <Polish>Prawo jazdy</Polish>
         </Key>
+        <Key ID="STR_License_Towing">
+            <Original>Towing License</Original>
+        </Key>
         <Key ID="STR_License_Pilot">
             <Original>Pilot License</Original>
             <Czech>pilotní licence</Czech>
