@@ -187,11 +187,43 @@ class Licenses {
         side = "cop";
     };
 
+    class traffic {
+        variable = "traffic";
+        displayName = "STR_License_Highway";
+        price = 999999999;
+        illegal = false;
+        side = "cop";
+    };
+
+    class patrol {
+        variable = "patrol";
+        displayName = "STR_License_Patrol";
+        price = 999999999;
+        illegal = false;
+        side = "cop";
+    };
+
+    class k9 {
+        variable = "k9";
+        displayName = "STR_License_K9";
+        price = 999999999;
+        illegal = false;
+        side = "cop";
+    };
+
+    class ert {
+        variable = "ert";
+        displayName = "STR_License_ERT";
+        price = 999999999;
+        illegal = false;
+        side = "cop";
+    };
+
     //Medic Licenses
     class mAir {
         variable = "mAir";
         displayName = "STR_License_Pilot";
-        price = 15000;
+        price = 999999999;
         illegal = false;
         side = "med";
     };

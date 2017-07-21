@@ -93,6 +93,7 @@ switch (_code) do {
             case west: {if (!visibleMap) then {[] spawn life_fnc_copMarkers;}};
             case independent: {if (!visibleMap) then {[] spawn life_fnc_medicMarkers;}};
             case civilian: {if (!visibleMap) then {[] spawn life_fnc_civMarkers;}};
+            case east: {if (!visibleMap) then {[] spawn life_fnc_rebelMarkers;}};
         };
     };
 
@@ -126,7 +127,7 @@ switch (_code) do {
     //Restraining (Shift + R)
     case 19: {
         if (_shift) then {_handled = true;};
-        if (_shift && playerSide isEqualTo west && {!isNull cursorObject} && {cursorObject isKindOf "Man"} && {(isPlayer cursorObject)} && {(side cursorObject in [civilian,independent])} && {alive cursorObject} && {cursorObject distance player < 3.5} && {!(cursorObject getVariable "Escorting")} && {!(cursorObject getVariable "restrained")} && {speed cursorObject < 1}) then {
+        if (_shift && playerSide isEqualTo west && {!isNull cursorObject} && {cursorObject isKindOf "Man"} && {(isPlayer cursorObject)} && {(side cursorObject in [civilian,independent,east])} && {alive cursorObject} && {cursorObject distance player < 3.5} && {!(cursorObject getVariable "Escorting")} && {!(cursorObject getVariable "restrained")} && {speed cursorObject < 1}) then {
             [] call life_fnc_restrainAction;
         };
     };
@@ -135,6 +136,16 @@ switch (_code) do {
     case 34: {
         if (_shift) then {_handled = true;};
         if (_shift && playerSide isEqualTo civilian && !isNull cursorObject && cursorObject isKindOf "Man" && isPlayer cursorObject && alive cursorObject && cursorObject distance player < 4 && speed cursorObject < 1) then {
+            if ((animationState cursorObject) != "Incapacitated" && (currentWeapon player == primaryWeapon player || currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player getVariable ["restrained",false]) && !life_istazed && !life_isknocked) then {
+                [cursorObject] spawn life_fnc_knockoutAction;
+            };
+        };
+    };
+
+    //Knock out, this is experimental and yeah... (Shift + G)
+    case 34: {
+        if (_shift) then {_handled = true;};
+        if (_shift && playerSide isEqualTo east && !isNull cursorObject && cursorObject isKindOf "Man" && isPlayer cursorObject && alive cursorObject && cursorObject distance player < 4 && speed cursorObject < 1) then {
             if ((animationState cursorObject) != "Incapacitated" && (currentWeapon player == primaryWeapon player || currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player getVariable ["restrained",false]) && !life_istazed && !life_isknocked) then {
                 [cursorObject] spawn life_fnc_knockoutAction;
             };

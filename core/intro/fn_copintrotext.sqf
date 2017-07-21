@@ -7,16 +7,16 @@ _onScreenTime = 5;
 
 sleep 2; //Wait in seconds before the credits start after player is in-game
 
-_role1 = "Welcome to Altis Life";
-_role1names = ["A Framework by Tonic"];
-_role2 = "Improved upon";
-_role2names = ["By The ArmA RPG Life Team"];
+_role1 = "Welcome to Malden Gang Life";
+_role1names = ["Modified by BSG DevTeam"];
+_role2 = "Rules";
+_role2names = ["Please follow our rules while you are here"];
 _role3 = "Visit Our Website at";
-_role3names = ["www.yourwebsite.com"];
+_role3names = ["www.blindsidegaming.com"];
 _role4 = "Join Our Teamspeak at";
-_role4names = ["ts.yourwebsite.com"];
+_role4names = ["ts3.blindsidegaming.com"];
 _role5 = "Please enjoy your stay";
-_role5names = [profileName];
+_role5names = "Officer:" [profileName];
 {
 sleep 2;
 _memberFunction = _x select 0;

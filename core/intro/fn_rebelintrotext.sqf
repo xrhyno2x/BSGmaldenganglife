@@ -16,7 +16,7 @@ _role3names = ["www.blindsidegaming.com"];
 _role4 = "Join Our Teamspeak at";
 _role4names = ["ts3.blindsidegaming.com"];
 _role5 = "Please enjoy your stay";
-_role5names = "Medic:" [profileName];
+_role5names = "MRF:" [profileName];
 {
 sleep 2;
 _memberFunction = _x select 0;

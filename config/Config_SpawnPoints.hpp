@@ -12,111 +12,99 @@ class CfgSpawnPoints {
 
     class Altis {
         class Civilian {
-            class Kavala {
-                displayName = "Kavala";
+            class latrinite {
+                displayName = "La Trinite";
                 spawnMarker = "civ_spawn_1";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "!license_civ_rebel";
-            };
-
-            class Athira {
-                displayName = "Athira";
-                spawnMarker = "civ_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
-
-            class Pyrgos {
-                displayName = "Pyrgos";
+            class chapoi {
+                displayName = "Chapoi";
                 spawnMarker = "civ_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
-
-            class Sofia {
-                displayName = "Sofia";
-                spawnMarker = "civ_spawn_4";
+        };
+        class Rebel {
+            class latrinite {
+                displayName = "La Trinite";
+                spawnMarker = "civ_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
-
-            class RebelN {
-                displayName = $STR_SP_Reb_N;
-                spawnMarker = "Rebelop";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
+            class chapoi {
+                displayName = "Chapoi";
+                spawnMarker = "civ_spawn_2";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "";
             };
-
-            class RebelS {
-                displayName = $STR_SP_Reb_S;
-                spawnMarker = "Rebelop_1";
+            class rebel {
+                displayName = "MRF Base";
+                spawnMarker = "rebelbase";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
-            };
-
-            class RebelE {
-                displayName = $STR_SP_Reb_E;
-                spawnMarker = "Rebelop_2";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
+                conditions = "";
             };
         };
-
         class Cop {
-            class Kavala {
-                displayName = "Kavala HQ";
+            class mrmphq {
+                displayName = "MRMP HQ";
                 spawnMarker = "cop_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
-
-            class Athira {
-                displayName = "Athira HQ";
-                spawnMarker = "cop_spawn_3";
+            class mrmplatrinite {
+                displayName = "MRMP La Trinite HQ";
+                spawnMarker = "cop_spawn_4";
                 icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
                 conditions = "";
             };
-
-            class Pyrgos {
-                displayName = "Pyrgos HQ";
-                spawnMarker = "cop_spawn_2";
+            class mrmpchapoi {
+                displayName = "MRMP Chapoi HQ";
+                spawnMarker = "cop_spawn_5";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
-
-            class Air {
-                displayName = $STR_MAR_Police_Air_HQ;
-                spawnMarker = "cop_spawn_4";
+            class mrmphelicopter {
+                displayName = "MRMP Helicopter HQ";
+                spawnMarker = "cop_spawn_3";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-                conditions = "call life_coplevel >= 2 && {license_cop_cAir}";
+                conditions = "license_cop_cAir";
             };
-
-            class HW {
-                displayName = $STR_MAR_Highway_Patrol;
-                spawnMarker = "cop_spawn_5";
+            class mrmphighway {
+                displayName = "MRMP Highway HQ";
+                spawnMarker = "cop_spawn_2";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-                conditions = "call life_coplevel >= 3";
+                conditions = "license_cop_traffic";
             };
         };
-
         class Medic {
-            class Kavala {
-                displayName = $STR_SP_EMS_Kav;
+            class mmmhq {
+                displayName = "MMM HQ";
                 spawnMarker = "medic_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
-
-            class Athira {
-                displayName = $STR_SP_EMS_Ath;
+            class mmmhelihq {
+                displayName = "MMM Helicopter HQ";
                 spawnMarker = "medic_spawn_2";
+                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+                conditions = "license_cop_mAir";
+            };
+            class mmmairport {
+                displayName = "Malden Airport Trauma Center";
+                spawnMarker = "medic_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
-
-            class Pyrgos {
-                displayName = $STR_SP_EMS_Pyr;
-                spawnMarker = "medic_spawn_3";
+            class mmmchapoi {
+                displayName = "Chapoi Regional";
+                spawnMarker = "medic_spawn_4";
+                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+                conditions = "";
+            };
+            class mmmlapessagne {
+                displayName = "La Pessagne Field Hospital";
+                spawnMarker = "medic_spawn_5";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };

@@ -29,6 +29,7 @@ class Life_Client_Core {
         class initCiv {};
         class initCop {};
         class initMedic {};
+        class initrebel {};
         class setupActions {};
         class setupEVH {};
         class survival {};
@@ -159,6 +160,12 @@ class Life_Client_Core {
         class ticketPrompt {};
         class vehInvSearch {};
         class wantedGrab {};
+    };
+
+    class Adac {
+    	  file = "core\rebel";
+        class rebelLoadout {};
+        class rebelMarkers {};  
     };
 
     class Dialog_Controls {

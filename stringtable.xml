@@ -6998,6 +6998,50 @@
             <Portuguese>Licença de Piloto</Portuguese>
             <Polish>Licencja Pilota</Polish>
         </Key>
+        <Key ID="STR_License_Highway">
+            <Original>Traffic Officer</Original>
+            <Czech>pilotní licence</Czech>
+            <Spanish>Licencia de Piloto</Spanish>
+            <Russian></Russian>
+            <German>Pilotenschein</German>
+            <French>Licence de Pilote</French>
+            <Italian>Licenza da Pilota</Italian>
+            <Portuguese>Licença de Piloto</Portuguese>
+            <Polish>Licencja Pilota</Polish>
+        </Key>
+        <Key ID="STR_License_Patrol">
+            <Original>Patrol Officer</Original>
+            <Czech>pilotní licence</Czech>
+            <Spanish>Licencia de Piloto</Spanish>
+            <Russian></Russian>
+            <German>Pilotenschein</German>
+            <French>Licence de Pilote</French>
+            <Italian>Licenza da Pilota</Italian>
+            <Portuguese>Licença de Piloto</Portuguese>
+            <Polish>Licencja Pilota</Polish>
+        </Key>
+        <Key ID="STR_License_K9">
+            <Original>K9 Officer</Original>
+            <Czech>pilotní licence</Czech>
+            <Spanish>Licencia de Piloto</Spanish>
+            <Russian></Russian>
+            <German>Pilotenschein</German>
+            <French>Licence de Pilote</French>
+            <Italian>Licenza da Pilota</Italian>
+            <Portuguese>Licença de Piloto</Portuguese>
+            <Polish>Licencja Pilota</Polish>
+        </Key>
+        <Key ID="STR_License_ERT">
+            <Original>Emergency Response Officer</Original>
+            <Czech>pilotní licence</Czech>
+            <Spanish>Licencia de Piloto</Spanish>
+            <Russian></Russian>
+            <German>Pilotenschein</German>
+            <French>Licence de Pilote</French>
+            <Italian>Licenza da Pilota</Italian>
+            <Portuguese>Licença de Piloto</Portuguese>
+            <Polish>Licencja Pilota</Polish>
+        </Key>
         <Key ID="STR_License_Heroin">
             <Original>Heroin Training</Original>
             <Czech>heroin Training</Czech>
