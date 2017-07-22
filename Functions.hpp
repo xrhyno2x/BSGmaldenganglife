@@ -165,7 +165,7 @@ class Life_Client_Core {
     class Adac {
     	  file = "core\rebel";
         class rebelLoadout {};
-        class rebelMarkers {};  
+        class rebelMarkers {};
     };
 
     class Dialog_Controls {
@@ -192,6 +192,7 @@ class Life_Client_Core {
         class unimpound {};
         class vehicleGarage {};
         class wireTransfer {};
+        class insureCar {};
     };
 
     class Functions {
