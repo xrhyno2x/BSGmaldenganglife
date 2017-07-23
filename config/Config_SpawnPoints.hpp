@@ -26,7 +26,7 @@ class CfgSpawnPoints {
             };
         };
         class Rebel {
-            class rebel {
+            class rebel4 {
                 displayName = "MRF Base";
                 spawnMarker = "rebel_spawn_base";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
