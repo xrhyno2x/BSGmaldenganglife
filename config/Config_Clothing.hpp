@@ -92,13 +92,13 @@ class Clothing {
             { "G_Lady_Blue", "", 150, "" }
         };
         vests[] = {
-            { "NONE", $STR_C_Remove_vests, 0, "" }
-            {"V_Rangemaster_belt", "", 1500, ""}
-            {"V_Press_F", "", 4000, ""}
-            {"	V_BandollierB_khk", "", 2500, ""}
-            {"	V_BandollierB_cbr", "", 2500, ""}
-            {"	V_BandollierB_rgr", "", 2500, ""}
-            {"	V_BandollierB_blk", "", 2500, ""}
+            { "NONE", $STR_C_Remove_vests, 0, "" },
+            {"V_Rangemaster_belt", "", 1500, ""},
+            {"V_Press_F", "", 4000, ""},
+            {"	V_BandollierB_khk", "", 2500, ""},
+            {"	V_BandollierB_cbr", "", 2500, ""},
+            {"	V_BandollierB_rgr", "", 2500, ""},
+            {"	V_BandollierB_blk", "", 2500, ""},
             {"	V_BandollierB_oli", "", 2500, ""}
         };
         backpacks[] = {
@@ -143,7 +143,7 @@ class Clothing {
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
             { "U_Rangemaster", $STR_C_Cop_uniforms, 0, "" },
-            { "U_B_CombatUniform_mcam_worn", "", 0, "call life_coplevel >= 2" },
+            { "U_B_CombatUniform_mcam_worn", "", 0, "call life_coplevel >= 2" }
 
         };
         headgear[] = {
