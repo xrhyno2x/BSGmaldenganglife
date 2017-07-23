@@ -91,7 +91,7 @@ switch (playerSide) do {
         _handle = [] spawn life_fnc_initMedic;
         waitUntil {scriptDone _handle};
     };
-    case independent: {
+    case east: {
         //Initialize Rebel
         _handle = [] spawn life_fnc_initrebel;
         waitUntil {scriptDone _handle};
