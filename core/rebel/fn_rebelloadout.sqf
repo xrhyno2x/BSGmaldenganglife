@@ -1,21 +1,24 @@
 /*
-    File: fn_civLoadout.sqf
-    Author: Tobias 'Xetoxyc' Sittenauer
+    File: fn_copLoadout.sqf
+    Author: Bryan "Tonic" Boardwine
+    Edited: Itsyuka
 
     Description:
-    Loads the civs out with the default gear, with randomized clothing.
+    Loads the cops out with the default gear.
 */
 private ["_handle"];
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
-_clothings = ["U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_stripped","U_C_Poloshirt_tricolour","U_C_Poloshirt_salmon","U_C_Poloshirt_redwhite","U_C_Commoner1_1"];
-player addUniform (selectRandom _clothings);
+//Load player with default cop gear.
+player addUniform "U_Rangemaster";
+player addVest "V_Rangemaster_belt";
 
 /* ITEMS */
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player linkItem "ItemGPS";
 
 [] call life_fnc_playerSkins;
 [] call life_fnc_saveGear;

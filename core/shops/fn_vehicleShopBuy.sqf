@@ -124,6 +124,9 @@ switch (playerSide) do {
     case independent: {
         [_vehicle,"med_offroad",true] spawn life_fnc_vehicleAnimate;
     };
+    case east: {
+        [_vehicle,"rebel_offroad",true] spawn life_fnc_vehicleAnimate;
+    };
 };
 
 _vehicle allowDamage true;

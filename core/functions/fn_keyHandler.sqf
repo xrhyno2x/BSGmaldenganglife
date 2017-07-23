@@ -253,7 +253,7 @@ switch (_code) do {
                 _veh = vehicle player;
             };
 
-            if (_veh isKindOf "House_F" && {playerSide isEqualTo civilian}) then {
+            if (_veh isKindOf "House_F" && {playerSide isEqualTo civilian} && {playerSide isEqualTo east}) then {
                 if (_veh in life_vehicles && {player distance _veh < 20}) then {
                     _door = [_veh] call life_fnc_nearestDoor;
                     if (_door isEqualTo 0) exitWith {hint localize "STR_House_Door_NotNear"};

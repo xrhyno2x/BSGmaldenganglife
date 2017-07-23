@@ -1,4 +1,4 @@
-if (playerSide isEqualTo civilian && license_civ_towing) then {
+if (license_civ_towing) then {
 
 #define SA_Find_Surface_ASL_Under_Position(_object,_positionAGL,_returnSurfaceASL,_canFloat) \
 _objectASL = AGLToASL (_object modelToWorldVisual (getCenterOfMass _object)); \

@@ -12,6 +12,12 @@ private _spawnBuildings = [[["Altis", _altisArray], ["Tanoa", _tanoaArray]]] cal
 
 
 waitUntil {!(isNull (findDisplay 46))};
+
+if ((FETCH_CONST(life_rebellevel) isEqualTo 0) && (FETCH_CONST(life_adminlevel) isEqualTo 0)) then {
+    ["NotWhitelisted",false,true] call BIS_fnc_endMission;
+    sleep 35;
+};
+
 if (life_is_alive && !life_is_arrested) then {
     /* Spawn at our last position */
     player setVehiclePosition [life_civ_position, [], 0, "CAN_COLLIDE"];

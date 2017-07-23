@@ -46,6 +46,13 @@ if (!_preset) then
             _vehicle animate ["HideDoor3", 1];
         };
 
+        case "rebel_offroad":
+        {
+          _vehicle animate ["HidePolice", 1];
+          _vehicle animate ["HideBumper1", 1];
+          _vehicle setVariable ["lights",true,false];
+        };
+
         case "med_offroad":
         {
             _vehicle animate ["HidePolice", 0];

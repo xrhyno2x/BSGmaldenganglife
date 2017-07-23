@@ -110,6 +110,18 @@ switch (playerSide) do {
             life_thirst = ((_this select 9) select 1);
             player setDamage ((_this select 9) select 2);
         };
+
+        {
+            _house = nearestObject [(call compile format ["%1",(_x select 0)]), "House"];
+            life_vehicles pushBack _house;
+        } forEach life_houses;
+
+        life_gangData = _this select (_count - 2);
+        if !(count life_gangData isEqualTo 0) then {
+            [] spawn life_fnc_initGang;
+        };
+        [] spawn life_fnc_initHouses;
+        
     };
 
 };
