@@ -10,7 +10,7 @@
 */
 class CfgSpawnPoints {
 
-    class Altis {
+    class Malden {
         class Civilian {
             class latrinite {
                 displayName = "La Trinite";
@@ -26,18 +26,6 @@ class CfgSpawnPoints {
             };
         };
         class Rebel {
-            class latrinite {
-                displayName = "La Trinite";
-                spawnMarker = "civ_spawn_1";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
-            };
-            class chapoi {
-                displayName = "Chapoi";
-                spawnMarker = "civ_spawn_2";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
-            };
             class rebel {
                 displayName = "MRF Base";
                 spawnMarker = "rebelbase";
@@ -52,29 +40,11 @@ class CfgSpawnPoints {
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
-            class mrmplatrinite {
-                displayName = "MRMP La Trinite HQ";
-                spawnMarker = "cop_spawn_4";
-                icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
-                conditions = "";
-            };
-            class mrmpchapoi {
-                displayName = "MRMP Chapoi HQ";
-                spawnMarker = "cop_spawn_5";
-                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-                conditions = "";
-            };
             class mrmphelicopter {
                 displayName = "MRMP Helicopter HQ";
                 spawnMarker = "cop_spawn_3";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
                 conditions = "license_cop_cAir";
-            };
-            class mrmphighway {
-                displayName = "MRMP Highway HQ";
-                spawnMarker = "cop_spawn_2";
-                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-                conditions = "license_cop_traffic";
             };
         };
         class Medic {
@@ -89,24 +59,6 @@ class CfgSpawnPoints {
                 spawnMarker = "medic_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "license_cop_mAir";
-            };
-            class mmmairport {
-                displayName = "Malden Airport Trauma Center";
-                spawnMarker = "medic_spawn_3";
-                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-                conditions = "";
-            };
-            class mmmchapoi {
-                displayName = "Chapoi Regional";
-                spawnMarker = "medic_spawn_4";
-                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-                conditions = "";
-            };
-            class mmmlapessagne {
-                displayName = "La Pessagne Field Hospital";
-                spawnMarker = "medic_spawn_5";
-                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-                conditions = "";
             };
         };
     };
