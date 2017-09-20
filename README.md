@@ -1,4 +1,4 @@
 # BSGmaldenganglife
 BlindsideGaming's Malden Gang Life Mission Files
 
-Edited by Ryanblm and Nicolaj
+Edited by Ryanblm
